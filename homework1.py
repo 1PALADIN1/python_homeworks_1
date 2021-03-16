@@ -31,7 +31,7 @@ def task1():
     print(f"{first_number} / {second_number} = {div_result:.4f}")
 
 
-task1()
+# task1()
 
 
 # 2. Пользователь вводит время в секундах.
@@ -49,4 +49,25 @@ def task2():
     print(f"Time is {hours:0>2}:{minutes:0>2}:{seconds:0>2}")
 
 
-task2()
+# task2()
+
+
+# 3. Узнайте у пользователя число n. Найдите сумму чисел n + nn + nnn.
+# Например, пользователь ввёл число 3. Считаем 3 + 33 + 333 = 369.
+def task3():
+    print_task_separator("Task 3")
+
+    number = int(input("Number: "))
+
+    i = 0
+    current_num = ""
+    result = 0
+    while i < number:
+        i += 1
+        current_num += str(number)
+        result += int(current_num)
+
+    print(result)
+
+
+task3()
