@@ -70,4 +70,25 @@ def task3():
     print(result)
 
 
-task3()
+# task3()
+
+
+# 4. Пользователь вводит целое положительное число.
+# Найдите самую большую цифру в числе. Для решения используйте цикл while и арифметические операции.
+def task4():
+    print_task_separator("Task4")
+
+    number = int(input("Number: "))
+
+    max_number = 0
+    while number != 0:
+        check_number = number % 10
+        if max_number < check_number:
+            max_number = check_number
+
+        number //= 10
+
+    print(f"Max number: {max_number}")
+
+
+task4()
