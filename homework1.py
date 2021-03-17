@@ -91,4 +91,29 @@ def task4():
     print(f"Max number: {max_number}")
 
 
-task4()
+# task4()
+
+
+# 5. Запросите у пользователя значения выручки и издержек фирмы.
+# Определите, с каким финансовым результатом работает фирма (прибыль — выручка больше издержек,
+# или убыток — издержки больше выручки). Выведите соответствующее сообщение.
+# Если фирма отработала с прибылью, вычислите рентабельность выручки (соотношение прибыли к выручке).
+# Далее запросите численность сотрудников фирмы и определите прибыль фирмы в расчете на одного сотрудника.
+def task5():
+    print_task_separator("Task 5")
+
+    proceeds = float(input("Proceeds: "))
+    costs = float(input("Costs: "))
+    profit = proceeds - costs
+
+    if profit > 0:
+        print("The company makes a profit!")
+        print(f"Company profitability: {profit / proceeds}")
+
+        emp_number = int(input("The number of employees: "))
+        print(f"Profit per employee: {profit / emp_number}")
+    else:
+        print("The company incurs losses...")
+
+
+task5()
