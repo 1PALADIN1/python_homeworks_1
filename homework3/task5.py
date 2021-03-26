@@ -6,6 +6,11 @@
 # то вначале нужно добавить сумму этих чисел к полученной ранее сумме и после этого завершить программу.
 
 def sum_numbers(number_list):
+    """
+    Складывает числа из входного списка и возвращает сумму
+    :param number_list: [float]
+    :return: float
+    """
     result = 0
 
     for el in number_list:

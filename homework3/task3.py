@@ -2,6 +2,13 @@
 # и возвращает сумму наибольших двух аргументов.
 
 def my_func(num1, num2, num3):
+    """
+    Принимает три позиционных аргумента и возвращает сумму наибольших двух аргументов
+    :param num1: float
+    :param num2: float
+    :param num3: float
+    :return: float
+    """
     numbers = (num1, num2, num3)
     total_sum = sum(numbers)
 

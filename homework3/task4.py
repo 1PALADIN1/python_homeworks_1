@@ -5,10 +5,22 @@
 # Второй — более сложная реализация без оператора **, предусматривающая использование цикла.
 
 def custom_pow1(x, y):
+    """
+    Возводит первое число в степень второго и возвращает результат
+    :param x: float
+    :param y: float
+    :return: float
+    """
     return x ** y
 
 
 def custom_pow2(x, y):
+    """
+    Возводит первое число в степень второго и возвращает результат
+    :param x: float
+    :param y: float
+    :return: float
+    """
     result = 1
     for i in range(0, abs(y)):
         result *= x
