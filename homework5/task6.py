@@ -15,7 +15,6 @@
 
 import os
 
-
 empty_char = "-"
 subject_types = ("(л)", "(пр)", "(лаб)")
 

@@ -1,0 +1,6 @@
+firm_1 ООО 10000 5000
+mega_firm ЗАО 30000 200
+Trudogolik ООО 12000 50000
+Kolhoz404 ЗАО 200000 12000
+TrueFirm ООО 1000 70000
+MoscowCompany ООО 90000 1000
