@@ -44,4 +44,4 @@ result = [firms_dict, {"average_profit": average_profit}]
 with open(os.path.join("files", "file7_output.json"), "w") as f:
     json.dump(result, f)
 
-print(f"Json объект записан в файл file7_output.txt. Результат:\n{result}")
+print(f"Json объект записан в файл file7_output.json. Результат:\n{result}")
